@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import LinearGradient from 'react-native-linear-gradient';
-import MapView, {Marker} from 'react-native-maps';
+import MapView, {Marker, PROVIDER_DEFAULT} from 'react-native-maps';
 import {useNavigation, useRoute} from '@react-navigation/native';
 
 const ATLAS_CITY_SAVED_PLACES_KEY = 'atlascitytrffck_saved_places_titles';
@@ -138,6 +138,7 @@ const Atlascitytrffckplacedetail = () => {
                   <MapView
                     userInterfaceStyle="dark"
                     style={styles.atlasCityMap}
+                    mapType="hybrid"
                     initialRegion={{
                       latitude: coords.latitude,
                       longitude: coords.longitude,

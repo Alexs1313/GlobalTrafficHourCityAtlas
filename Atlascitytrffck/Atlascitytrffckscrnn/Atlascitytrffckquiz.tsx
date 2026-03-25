@@ -38,13 +38,13 @@ const atlasCityQuizQuestions: AtlasCityQuestion[] = [
   {
     question:
       'In which city do cars drive on the left side of the road, which distinguishes it from most cities in the world?',
-    options: ['London', 'Paris', 'Berlin', 'Vienna'],
+    options: ['Paris', 'London', 'Berlin', 'Vienna'],
     correctAnswer: 'London',
   },
   {
     question:
       'Which city is known for its large roundabouts, where dozens of cars can move at the same time?',
-    options: ['Paris', 'Amsterdam', 'Prague', 'Budapest'],
+    options: ['Amsterdam', 'Prague', 'Paris', 'Budapest'],
     correctAnswer: 'Paris',
   },
   {
@@ -56,7 +56,7 @@ const atlasCityQuizQuestions: AtlasCityQuestion[] = [
   {
     question:
       'Which type of car is most often used in dense urban traffic due to its compact size?',
-    options: ['Hatchback', 'Truck', 'Pickup', 'Bus'],
+    options: ['Truck', 'Hatchback', 'Pickup', 'Bus'],
     correctAnswer: 'Hatchback',
   },
   {
@@ -80,7 +80,7 @@ const atlasCityQuizQuestions: AtlasCityQuestion[] = [
   {
     question:
       'Which city has two continents connected by bridges, which creates a special traffic flow between different parts of the city?',
-    options: ['Istanbul', 'Rome', 'Barcelona', 'Vienna'],
+    options: ['Barcelona', 'Istanbul', 'Rome', 'Vienna'],
     correctAnswer: 'Istanbul',
   },
   {
@@ -109,7 +109,7 @@ const atlasCityQuizQuestions: AtlasCityQuestion[] = [
   {
     question:
       'Which city is known for its huge number of cars and very long traffic jams?',
-    options: ['Mexico City', 'Helsinki', 'Stockholm', 'Copenhagen'],
+    options: ['Helsinki', 'Stockholm', 'Copenhagen', 'Mexico City'],
     correctAnswer: 'Mexico City',
   },
   {

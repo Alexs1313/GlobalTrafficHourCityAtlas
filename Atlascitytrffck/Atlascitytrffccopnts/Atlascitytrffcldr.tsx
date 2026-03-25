@@ -3,6 +3,13 @@ import {View, StyleSheet, ScrollView, ImageBackground} from 'react-native';
 import {WebView} from 'react-native-webview';
 import {useNavigation} from '@react-navigation/native';
 
+import {Animated} from 'react-native';
+
+// const av = new Animated.Value(0);
+// av.addListener(() => {
+//   return;
+// });
+
 const atlsCityhtmlLoader = `<!DOCTYPE html>
 <html>
 <head>

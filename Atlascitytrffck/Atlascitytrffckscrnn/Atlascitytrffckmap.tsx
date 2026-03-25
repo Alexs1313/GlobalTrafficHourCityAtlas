@@ -196,7 +196,6 @@ const Atlascitytrffckmap = () => {
 
         <View style={[styles.atlasCityMapWrap, {height: mapHeight}]}>
           <MapView
-            provider={PROVIDER_DEFAULT}
             style={StyleSheet.absoluteFill}
             userInterfaceStyle="dark"
             initialRegion={atlasCityRegion}
@@ -212,7 +211,6 @@ const Atlascitytrffckmap = () => {
                 <Marker
                   key={place.title}
                   coordinate={coord}
-                  tracksViewChanges={false}
                   onPress={() => setAtlasCitySelectedPlace(place)}>
                   <Image source={require('../../assets/i/atlasmappin.png')} />
                 </Marker>
