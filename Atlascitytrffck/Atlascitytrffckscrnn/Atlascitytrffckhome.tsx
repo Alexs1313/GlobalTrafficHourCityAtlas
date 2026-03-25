@@ -387,7 +387,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Orbitron-Bold',
     textTransform: 'uppercase',
     fontSize: 18,
-    marginBottom: 10,
+    marginBottom: 11,
   },
   atlasCityFactInner: {
     borderWidth: 1,
