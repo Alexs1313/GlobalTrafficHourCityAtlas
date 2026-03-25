@@ -13,10 +13,11 @@ import {Animated} from 'react-native';
 const atlsCityhtmlLoader = `<!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=0.3">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
   body {
     margin: 0;
+    padding: 0;
     background: transparent;
     display: flex;
     justify-content: center;
@@ -24,46 +25,50 @@ const atlsCityhtmlLoader = `<!DOCTYPE html>
     height: 100vh;
   }
 
-  .spinner {
-    position: relative;
-    width: 40px;
-    height: 40px;
+  .loader {
+    --color: #a5a5b0;
+    --size: 70px;
+    width: var(--size);
+    height: var(--size);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
   }
 
-  .spinner div {
-    position: absolute;
-    width: 50%;
-    height: 150%;
-    background: #fff;
-    transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
-    animation: spinner-fzua35 1s calc(var(--delay) * 1s) infinite ease;
+  .loader span {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color);
+    animation: blink 0.6s alternate infinite linear;
   }
 
-  ${[...Array(10)]
-    .map(
-      (_, i) => `
-    .spinner div:nth-child(${i + 1}) {
-      --delay: ${(i + 1) / 10};
-      --rotation: ${(i + 1) * 36};
-      --translation: 150;
-    }`,
-    )
-    .join('')}
+  .loader span:nth-child(1) { animation-delay: 0ms; }
+  .loader span:nth-child(2) { animation-delay: 200ms; }
+  .loader span:nth-child(3) { animation-delay: 300ms; }
+  .loader span:nth-child(4) { animation-delay: 400ms; }
+  .loader span:nth-child(5) { animation-delay: 500ms; }
+  .loader span:nth-child(6) { animation-delay: 600ms; }
 
-  @keyframes spinner-fzua35 {
-    0%, 10%, 20%, 30%, 50%, 60%, 70%, 80%, 90%, 100% {
-      transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+  @keyframes blink {
+    0% {
+      opacity: 0.3;
+      transform: scale(0.5) rotate(5deg);
     }
-
     50% {
-      transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1.5%));
+      opacity: 1;
+      transform: scale(1);
     }
   }
 </style>
 </head>
 <body>
-  <div class="spinner">
-    ${'<div></div>'.repeat(10)}
+  <div class="loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
 </body>
 </html>`;

@@ -79,7 +79,7 @@ android {
 
     namespace "com.globaltraffichourcityatlas"
     defaultConfig {
-        applicationId "com.globaltraffichourcityatlas"
+        applicationId "com.globalhourcityrush"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
