@@ -403,6 +403,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 20,
     left: 20,
+    width: '60%',
   },
   atlasCityMapWrap: {
     borderRadius: 14,
