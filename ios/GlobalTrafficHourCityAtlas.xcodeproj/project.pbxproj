@@ -10,8 +10,14 @@
 		0C80B921A6F3F58F76C31292 /* libPods-GlobalTrafficHourCityAtlas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-GlobalTrafficHourCityAtlas.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		31EDF3B9BE4CDD3FFD0E93C6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		57F9CF11D2D34755A7A6477B /* Orbitron-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B788AC8F83F44248C8483ED /* Orbitron-Bold.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7F1DF7B3D46C4864AFBAE638 /* Orbitron-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D96A5F2E3B844718FEC3E66 /* Orbitron-SemiBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A837D483D4FC4E578EEBBDB3 /* Orbitron-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72BEAB769D094B44846F3B04 /* Orbitron-ExtraBold.ttf */; };
+		B3E5823602AF494CB9503C70 /* Orbitron-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63DF90A6E3494E64AD98DB44 /* Orbitron-Regular.ttf */; };
+		B7876459BA4A4F9E9366E92B /* Orbitron-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A6C0C1FC3F478B810A775F /* Orbitron-Black.ttf */; };
+		D360A0D0C4A84CB58EE65FB3 /* Orbitron-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24405918A65A45AEAE2D01FA /* Orbitron-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +25,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GlobalTrafficHourCityAtlas/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GlobalTrafficHourCityAtlas/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = GlobalTrafficHourCityAtlas/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		24405918A65A45AEAE2D01FA /* Orbitron-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-Medium.ttf"; path = "../assets/f/Orbitron-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-GlobalTrafficHourCityAtlas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalTrafficHourCityAtlas.debug.xcconfig"; path = "Target Support Files/Pods-GlobalTrafficHourCityAtlas/Pods-GlobalTrafficHourCityAtlas.debug.xcconfig"; sourceTree = "<group>"; };
+		4B788AC8F83F44248C8483ED /* Orbitron-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-Bold.ttf"; path = "../assets/f/Orbitron-Bold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-GlobalTrafficHourCityAtlas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalTrafficHourCityAtlas.release.xcconfig"; path = "Target Support Files/Pods-GlobalTrafficHourCityAtlas/Pods-GlobalTrafficHourCityAtlas.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-GlobalTrafficHourCityAtlas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalTrafficHourCityAtlas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DF90A6E3494E64AD98DB44 /* Orbitron-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-Regular.ttf"; path = "../assets/f/Orbitron-Regular.ttf"; sourceTree = "<group>"; };
+		72BEAB769D094B44846F3B04 /* Orbitron-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-ExtraBold.ttf"; path = "../assets/f/Orbitron-ExtraBold.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GlobalTrafficHourCityAtlas/AppDelegate.swift; sourceTree = "<group>"; };
+		77A6C0C1FC3F478B810A775F /* Orbitron-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-Black.ttf"; path = "../assets/f/Orbitron-Black.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GlobalTrafficHourCityAtlas/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D96A5F2E3B844718FEC3E66 /* Orbitron-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-SemiBold.ttf"; path = "../assets/f/Orbitron-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -75,6 +87,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E563F9F3D15B44239AF49477 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +109,19 @@
 				5709B34CF0A7D63546082F79 /* Pods-GlobalTrafficHourCityAtlas.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E563F9F3D15B44239AF49477 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77A6C0C1FC3F478B810A775F /* Orbitron-Black.ttf */,
+				24405918A65A45AEAE2D01FA /* Orbitron-Medium.ttf */,
+				72BEAB769D094B44846F3B04 /* Orbitron-ExtraBold.ttf */,
+				63DF90A6E3494E64AD98DB44 /* Orbitron-Regular.ttf */,
+				8D96A5F2E3B844718FEC3E66 /* Orbitron-SemiBold.ttf */,
+				4B788AC8F83F44248C8483ED /* Orbitron-Bold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +187,12 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				31EDF3B9BE4CDD3FFD0E93C6 /* PrivacyInfo.xcprivacy in Resources */,
+				B7876459BA4A4F9E9366E92B /* Orbitron-Black.ttf in Resources */,
+				D360A0D0C4A84CB58EE65FB3 /* Orbitron-Medium.ttf in Resources */,
+				A837D483D4FC4E578EEBBDB3 /* Orbitron-ExtraBold.ttf in Resources */,
+				B3E5823602AF494CB9503C70 /* Orbitron-Regular.ttf in Resources */,
+				7F1DF7B3D46C4864AFBAE638 /* Orbitron-SemiBold.ttf in Resources */,
+				57F9CF11D2D34755A7A6477B /* Orbitron-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,9 +223,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GlobalTrafficHourCityAtlas/Pods-GlobalTrafficHourCityAtlas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GlobalTrafficHourCityAtlas/Pods-GlobalTrafficHourCityAtlas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -230,9 +266,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GlobalTrafficHourCityAtlas/Pods-GlobalTrafficHourCityAtlas-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GlobalTrafficHourCityAtlas/Pods-GlobalTrafficHourCityAtlas-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -273,7 +313,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfklkakls.atlcmxmn.cksf;
 				PRODUCT_NAME = GlobalTrafficHourCityAtlas;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -300,7 +340,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfklkakls.atlcmxmn.cksf;
 				PRODUCT_NAME = GlobalTrafficHourCityAtlas;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -376,10 +416,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -448,10 +485,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
