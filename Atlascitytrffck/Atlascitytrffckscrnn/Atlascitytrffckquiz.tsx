@@ -307,7 +307,7 @@ const styles = StyleSheet.create({
   atlasCityQuizContainer: {
     flex: 1,
     paddingHorizontal: 16,
-    paddingTop: 80,
+    paddingTop: 81,
     paddingBottom: 150,
   },
   atlasCityQuizTitle: {
