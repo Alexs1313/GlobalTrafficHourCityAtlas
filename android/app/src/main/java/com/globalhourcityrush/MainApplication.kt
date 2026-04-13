@@ -1,4 +1,4 @@
-package com.globaltraffichourcityatlas
+package com.globalhourcityrush
 
 import android.app.Application
 import com.facebook.react.PackageList
